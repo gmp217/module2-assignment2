@@ -1,4 +1,7 @@
-def ss() : 
-    return (n * (n + 1) * (2 * n + 1)) // 6
-n=int(input('Enter a number: '))
-print('Sum of square of number till ',n, ' is ',ss())
+def ss(n=int(input("enter no:")),c=0,i=1):
+ 
+ while i<=n:
+  c+=i*i
+  i+=1
+ print("sum of n natural no is:",c)
+ss(); 
